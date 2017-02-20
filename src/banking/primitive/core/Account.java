@@ -1,4 +1,25 @@
 package banking.primitive.core;
+/*
+File:
+Author:
+Date:
+
+Description:
+*/
+
+/**
+Class:
+
+Description:
+*/
+
+/**
+Method:
+Inputs:
+Returns:
+
+Description:
+*/
 
 public abstract class Account implements java.io.Serializable {
     private static final long serialVersionUID = 1L;

@@ -1,4 +1,25 @@
 package banking.primitive.core;
+/*
+File:
+Author:
+Date:
+
+Description:
+*/
+
+/**
+Class:
+
+Description:
+*/
+
+/**
+Method:
+Inputs:
+Returns:
+
+Description:
+*/
 
 import java.util.ArrayList;
 import java.util.List;
