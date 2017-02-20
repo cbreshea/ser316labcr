@@ -3,9 +3,7 @@ package banking.primitive.core;
 public abstract class Account implements java.io.Serializable {
     private static final long serialVersionUID = 1L;
 
-    protected enum State {
-        OPEN, CLOSED, OVERDRAWN
-    };
+  
 
     protected float balance = 0.0F;
     protected String name;
