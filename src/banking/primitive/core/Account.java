@@ -1,4 +1,11 @@
 package banking.primitive.core;
+    /**
+     * Does a simple bank account 
+     * 
+     * @author Charles Brehears, Andrew Negri
+     *           
+     *
+     */
 
 public abstract class Account implements java.io.Serializable {
     private static final long serialVersionUID = 1L;
