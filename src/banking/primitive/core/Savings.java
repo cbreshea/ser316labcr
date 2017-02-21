@@ -1,13 +1,25 @@
 package banking.primitive.core;
-  /**
-     * Adds money to an account. May not be done if the account is CLOSED
-     * 
-     * @param amount 
-     *            amount is placed in a savings account or withdrawn
-     * @return true if the deposit was successful, false if not due to amount or
-     *         invalid state
-     */
+/*
+File:
+Author:
+Date:
 
+Description:
+*/
+
+/**
+Class:
+
+Description:
+*/
+
+/**
+Method:
+Inputs:
+Returns:
+
+Description:
+*/
 public class Savings extends Account {
 	private static final long serialVersionUID = 111L;
 	private int numWithdraws = 0;
@@ -44,7 +56,7 @@ public class Savings extends Account {
 			if (numWithdraws > 3)
 				balance = balance - 1.0f;
 			// KG BVA: should be < 0
-			if (balance <= 0.0f) {
+			if (balance < 0.0f) {
 				setState(State.OVERDRAWN);
 			}
 			return true;

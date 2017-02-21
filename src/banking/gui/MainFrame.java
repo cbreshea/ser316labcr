@@ -1,4 +1,25 @@
 package banking.gui;
+/*
+File:
+Author:
+Date:
+
+Description:
+*/
+
+/**
+Class:
+
+Description:
+*/
+
+/**
+Method:
+Inputs:
+Returns:
+
+Description:
+*/
 
 import banking.primitive.core.Account;
 import banking.primitive.core.AccountServer;
