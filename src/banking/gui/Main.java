@@ -21,7 +21,9 @@ Returns:
 
 Description:
 */
+
 import javax.swing.JFrame;
+
 
 
 final class Main {
