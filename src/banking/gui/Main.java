@@ -1,4 +1,5 @@
 package banking.gui;
+import javax.swing.JFrame;
 
 /*
 File: main.java
@@ -22,7 +23,7 @@ Returns:
 Description:
 */
 
-import javax.swing.JFrame;
+
 
 
 
