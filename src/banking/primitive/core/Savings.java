@@ -1,4 +1,12 @@
 package banking.primitive.core;
+  /**
+     * Adds money to an account. May not be done if the account is CLOSED
+     * 
+     * @param amount 
+     *            amount is placed in a savings account or withdrawn
+     * @return true if the deposit was successful, false if not due to amount or
+     *         invalid state
+     */
 
 public class Savings extends Account {
 	private static final long serialVersionUID = 111L;

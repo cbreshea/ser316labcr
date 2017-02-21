@@ -4,7 +4,7 @@ import javax.swing.JFrame;
 
 /**
  * main method for running the program.
- * @author kevinagary
+ * @author Charles Breshears, Andrew Negri
  *
  */
 final class Main {
