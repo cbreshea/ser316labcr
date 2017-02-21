@@ -1,5 +1,5 @@
 package banking.gui;
-
+import javax.swing.JFrame;
 /*
 File: main.java
 Author: Charles Breshears , Andrew Negri

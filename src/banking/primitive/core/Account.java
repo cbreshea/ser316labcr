@@ -21,13 +21,8 @@ Returns:
 Description:
 */
 
-public abstract class Account implements java.io.Serializable {
+public abstract class Account implements java.io.Serializable, State {
     private static final long serialVersionUID = 1L;
-
-    protected enum State {
-        OPEN, CLOSED, OVERDRAWN
-    };
-
     protected float balance = 0.0F;
     protected String name;
     private State state;
