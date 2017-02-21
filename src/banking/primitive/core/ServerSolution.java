@@ -29,7 +29,7 @@ import java.io.*;
 
 import banking.primitive.core.Account.State;
 
-class ServerSolution implements AccountServer {
+public class ServerSolution implements AccountServer {
 
 	static String FILE_NAME = "accounts.ser";
 
