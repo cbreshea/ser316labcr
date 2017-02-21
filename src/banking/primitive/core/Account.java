@@ -92,4 +92,12 @@ public abstract class Account implements java.io.Serializable {
         return "Account " + name + " has $" + balance + "and is " + getState()
                 + "\n";
     }
+
+    protected boolean willOverflow(float amount) {
+        return Float.isNaN(balance + amount) || Float.isInfinite(balance + amount);
+    }
+
+    protected boolean willUnderflow(float amount) {
+        return Float.isNaN(balance - amount) || Float.isInfinite(balance - amount);
+    }
 }
