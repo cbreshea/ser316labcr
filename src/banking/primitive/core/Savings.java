@@ -1,5 +1,25 @@
 package banking.primitive.core;
+/*
+File:
+Author:
+Date:
 
+Description:
+*/
+
+/**
+Class:
+
+Description:
+*/
+
+/**
+Method:
+Inputs:
+Returns:
+
+Description:
+*/
 public class Savings extends Account {
 	private static final long serialVersionUID = 111L;
 	private int numWithdraws = 0;
@@ -36,7 +56,7 @@ public class Savings extends Account {
 			if (numWithdraws > 3)
 				balance = balance - 1.0f;
 			// KG BVA: should be < 0
-			if (balance <= 0.0f) {
+			if (balance < 0.0f) {
 				setState(State.OVERDRAWN);
 			}
 			return true;

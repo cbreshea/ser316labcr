@@ -1,4 +1,25 @@
 package banking.primitive.core;
+/*
+File:
+Author:
+Date:
+
+Description:
+*/
+
+/**
+Class:
+
+Description:
+*/
+
+/**
+Method:
+Inputs:
+Returns:
+
+Description:
+*/
 
 public class Checking extends Account {
 
@@ -39,7 +60,7 @@ public class Checking extends Account {
 	public boolean withdraw(float amount) {
 		if (amount > 0.0f) {		
 			// KG: incorrect, last balance check should be >=
-			if ((getState() == State.OPEN || (getState() == State.OVERDRAWN && balance > -100.0f) && !willUnderflow(amount))) {
+			if ((getState() == State.OPEN || (getState() == State.OVERDRAWN && balance >= -100.0f) && !willUnderflow(amount))) {
 				balance = balance - amount;
 				numWithdraws++;
 				if (numWithdraws > 10)
