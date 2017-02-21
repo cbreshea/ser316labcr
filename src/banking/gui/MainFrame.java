@@ -2,7 +2,7 @@ package banking.gui;
 
 import banking.primitive.core.Account;
 import banking.primitive.core.AccountServer;
-import banking.primitive.core.AccountServerFactory;
+import banking.primitive.core.ServerSolution;
 
 import java.io.*;
 import java.util.*;
@@ -30,7 +30,7 @@ class MainFrame extends JFrame {
 	public MainFrame(String propertyFile) throws IOException {
 
 		//** initialize myServer
-		myServer = AccountServerFactory.getMe().lookup();
+		myServer = new ServerSolution();
 
 		props = new Properties();
 
